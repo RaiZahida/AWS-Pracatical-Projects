@@ -33,25 +33,25 @@ This project demonstrates how to host a static website using Amazon S3 for stora
    - Set up an Origin Access Control (OAC) or OAI so only CloudFront can access your S3 content.
    - Set the default root object (e.g., `index.html`).
    - Enable HTTPS. You can use the default CloudFront certificate, or add your own for a custom domain.
-   - ![CloudFront Distribution](./images/cloudfront-distribution.png)
+   - ![CloudFront Distribution](./images/distribution-creation.png)
 
 5. **Update S3 Bucket Policy for CloudFront Access**
    - If using OAI, add a bucket policy to allow CloudFront’s OAI to read objects. Example:
      ```json
      {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicRead",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::weather-web-s3/*"
-    }
-  ]
-  }
-
+       "Version": "2012-10-17",
+       "Statement": [
+         {
+           "Sid": "PublicReadGetObject",
+           "Effect": "Allow",
+           "Principal": "*",
+           "Action": "s3:GetObject",
+           "Resource": "arn:aws:s3:::my-static-website-demo/*"
+         }
+       ]
+     }
      ```
+ 
    - Replace `YOUR_OAI_ID` and `my-cloudfront-demo` as appropriate.
 
 6. **(Optional) Set Up a Custom Domain**
