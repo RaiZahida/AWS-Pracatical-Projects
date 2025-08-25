@@ -7,7 +7,7 @@ This project demonstrates how to host a static website using Amazon S3. By follo
 - Amazon S3
 
 ## Architecture
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](./images/USER.png)
 
 ## Step-by-Step Guide
 
