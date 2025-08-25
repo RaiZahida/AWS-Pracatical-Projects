@@ -18,6 +18,7 @@ This repository is a curated collection of hands-on projects built with various 
 ## 📂 Projects Included
 
 - [S3 Static Website Hosting](./s3%20Static%20Website%20Hosting/readme.md)
+- [S3 + cloudFront Static Website Hosting](./s3+cloudFront-website-hosting/readme.md)
 
 - *(Add more projects as you grow!)*
 
