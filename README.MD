@@ -1,4 +1,4 @@
-![AWS Projects Banner](./images/banner.png.png)
+![AWS Projects Banner](./images/banner.png)
 
 # AWS Practical Projects 🚀
 
