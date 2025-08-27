@@ -8,6 +8,9 @@ At the end, you can find my LinkedIn for networking or questions!
 
 ---
 
+## Architectural diagram
+  ![EC2-hosting steps ](./images/diagram.png)
+
 ## Prerequisites
 
 - **AWS Account** (with EC2 permissions)
@@ -49,7 +52,6 @@ ssh -i C:\path\to\your-key.pem ubuntu@<EC2-PUBLIC-IP>
 ```
 Or use [PuTTY](https://www.putty.org/) with `your-key.ppk`.
 
-![SSH into EC2](assets/step2-ssh-connect.png)
 
 ---
 

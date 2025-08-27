@@ -20,7 +20,9 @@ This repository is a curated collection of hands-on projects built with various 
 - [S3 Static Website Hosting](./s3%20Static%20Website%20Hosting/readme.md)
 - [S3 + cloudFront Static Website Hosting](./s3+cloudFront-website-hosting/readme.md)
 - [IAM ,user,roles , groups](./IAM-user-groups-roles/readme.md)
-- [HOsting react frontend to ec2 ](./ec2-frontend-hosting/readme.md)
+- [Hosting react frontend to ec2 ](./ec2-frontend-hosting/readme.md)
+- [Full-stack-deploy(frontend+backend on same ec2)+rds db ](./Full-website-host-one-ec2/readme.md)
+
 
 
 
