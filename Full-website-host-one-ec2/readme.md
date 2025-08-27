@@ -17,7 +17,7 @@ This guide covers the steps to deploy your backend (Node.js with Express) on an 
 
 ---
 ## Architectural diagram:
-- [Architectural diagram](./images/architectural%20diagram.png)
+- ![Architectural diagram](./images/architectural%20diagram.png)
 ## 1. Launch/Prepare Your EC2 Instance
 
 1. Launch an EC2 instance (Ubuntu recommended).
@@ -163,15 +163,10 @@ server {
 ## 10. Connecting Frontend to Backend
 
 - Point your frontend app’s API calls to your backend’s public domain or EC2 public IP and port.
-
+![Database showing data](./images/database.png)
 ---
 
-## Adding Screenshots
 
-- Place them in an `images/` directory at the root.
-- Reference them in the README as shown (`![Description](images/file.png)`).
-
----
 
 ## Need Help or Want to Connect?
 
