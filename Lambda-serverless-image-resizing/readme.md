@@ -43,7 +43,8 @@ This project demonstrates how to automatically resize images using AWS Lambda an
 
 1. s3FullAccess
 2. AWSLambdaBasicExecutionRole
-
+- Go to lambda -> configuration -> environmental variables
+- Set the environmental variabel DEST_BUCKET and value of destination bucket name.
 ## Installation of sharp 
 - on your computer run this :
 ```bash
