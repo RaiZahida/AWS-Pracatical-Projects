@@ -22,6 +22,8 @@ This repository is a curated collection of hands-on projects built with various 
 - [IAM ,user,roles , groups](./IAM-user-groups-roles/readme.md)
 - [Hosting react frontend to ec2 ](./ec2-frontend-hosting/readme.md)
 - [Full-stack-deploy(frontend+backend on same ec2)+rds db ](./Full-website-host-one-ec2/readme.md)
+- [Lambda image resizing using s3](./Lambda-serverless-image-resizing/readme.md)
+
 
 
 
